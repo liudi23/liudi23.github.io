@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 
-## 👋 Hi, I’m Maciej Kozubal, PhD
+## 👋 Hi, I’m Dr. Di Liu
 
 Full-stack **Data Scientist** and **ML/MLOps Engineer** at **Seldon** (London) with a background in semiconductor physics research.  
 I design, ship, and monitor production-grade ML & LLM systems that serve real users at scale.
