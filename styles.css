@@ -1,0 +1,34 @@
+/* Light, understated personal-site styling on top of the cosmo theme. */
+
+:root {
+  --link: #2980b9;
+}
+
+body {
+  font-size: 1.02rem;
+  line-height: 1.65;
+}
+
+.navbar {
+  border-bottom: 1px solid #eee;
+}
+
+/* Project blurbs on the landing page */
+main h3 {
+  margin-top: 1.6rem;
+  font-weight: 600;
+}
+
+/* Readable measure for prose posts */
+.page-columns .content {
+  max-width: 46rem;
+}
+
+img {
+  border-radius: 6px;
+}
+
+blockquote {
+  color: #555;
+  border-left: 3px solid #ddd;
+}
