@@ -8,9 +8,9 @@
 <title>Di Liu</title>
 <link>https://liudi23.github.io/writing.html</link>
 <atom:link href="https://liudi23.github.io/writing.xml" rel="self" type="application/rss+xml"/>
-<description>Data science for energy systems and decarbonisation.</description>
+<description>Quantitative scientist and ML practitioner — forecasting, risk, and uncertainty modelling in energy and finance.</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Wed, 01 Jul 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 30 Jun 2026 23:00:00 GMT</lastBuildDate>
 <item>
   <title>When the grid gets hot: how heatwaves stress the GB balancing system</title>
   <dc:creator>Di Liu</dc:creator>
@@ -139,7 +139,7 @@ Figure&nbsp;2: Driver attribution: standardised coefficients (left) and binned p
   <category>GB balancing</category>
   <category>climate resilience</category>
   <guid>https://liudi23.github.io/posts/heatwave-imbalance/</guid>
-  <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
+  <pubDate>Tue, 30 Jun 2026 23:00:00 GMT</pubDate>
   <media:content url="https://liudi23.github.io/posts/heatwave-imbalance/spike_decomposition.png" medium="image" type="image/png" height="89" width="144"/>
 </item>
 </channel>
