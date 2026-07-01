@@ -1,0 +1,37 @@
+---
+title: "Di Liu"
+subtitle: "Data science for energy systems & decarbonisation"
+toc: false
+---
+
+I'm a data scientist working on the GB electricity system — forecasting, balancing
+markets, and how a decarbonising grid copes with a changing climate. I like work
+that is **reproducible and open**: open data, open-source code, and analysis that
+explains *why*, not just *what*.
+
+<!-- Edit these contact links to your real handles -->
+[GitHub](https://github.com/liudi23) ·
+[LinkedIn](https://www.linkedin.com/in/) ·
+[Email](mailto:liudisy@gmail.com)
+
+## Selected projects
+
+### 🌡️ Heatwave stress on the GB balancing system
+How extreme heat reshapes the imbalance (cash-out) price and the ~18:00 evening
+spike — a climate-resilience analysis that ranks the physical drivers rather than
+just predicting price. Open data (Elexon BMRS, Sheffield PV_Live, Open-Meteo),
+an interpretable decomposition, and a live results app.
+
+[Read the writeup](posts/heatwave-imbalance/index.qmd) ·
+[Code](https://github.com/liudi23/heatwave-imbalance)
+
+### ⚡ GB imbalance-price forecasting pipeline
+An end-to-end pipeline for short-term GB system-price forecasting — data ingestion,
+feature engineering, model training, and monitoring in production, with a Streamlit
+dashboard.
+
+[Code](https://github.com/liudi23/uk-system-price-forecast)
+
+## Writing
+
+Occasional notes on energy-systems data and modelling — see [Writing](writing.qmd).
