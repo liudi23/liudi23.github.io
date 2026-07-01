@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Di Liu"
-  description: "Data science for energy systems and decarbonisation."
+  description: "Quantitative scientist and ML practitioner — forecasting, risk, and uncertainty modelling in energy and finance."
   site-url: "https://liudi23.github.io"
   navbar:
     right:
