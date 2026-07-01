@@ -1,10 +1,24 @@
 [
   {
-    "objectID": "writing.html",
-    "href": "writing.html",
-    "title": "Writing",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Di Liu",
     "section": "",
-    "text": "When the grid gets hot: how heatwaves stress the GB balancing system\n\n\n\nenergy systems\n\nGB balancing\n\nclimate resilience\n\n\n\nA climate-resilience look at the evening imbalance-price spike — what drives it, and what it means for a decarbonising grid.\n\n\n\n\n\nJul 1, 2026\n\n\n\n\n\nNo matching items"
+    "text": "I’m a data scientist working on the GB electricity system — forecasting, balancing markets, and how a decarbonising grid copes with a changing climate. I like work that is reproducible and open: open data, open-source code, and analysis that explains why, not just what.\nGitHub · LinkedIn · Email"
+  },
+  {
+    "objectID": "index.html#selected-projects",
+    "href": "index.html#selected-projects",
+    "title": "Di Liu",
+    "section": "Selected projects",
+    "text": "Selected projects\n\n🌡️ Heatwave stress on the GB balancing system\nHow extreme heat reshapes the imbalance (cash-out) price and the ~18:00 evening spike — a climate-resilience analysis that ranks the physical drivers rather than just predicting price. Open data (Elexon BMRS, Sheffield PV_Live, Open-Meteo), an interpretable decomposition, and a live results app.\nRead the writeup · Code\n\n\n⚡ GB imbalance-price forecasting pipeline\nAn end-to-end pipeline for short-term GB system-price forecasting — data ingestion, feature engineering, model training, and monitoring in production, with a Streamlit dashboard.\nLive app · Code"
+  },
+  {
+    "objectID": "index.html#writing",
+    "href": "index.html#writing",
+    "title": "Di Liu",
+    "section": "Writing",
+    "text": "Writing\nOccasional notes on energy-systems data and modelling — see Writing."
   },
   {
     "objectID": "posts/heatwave-imbalance/index.html",
@@ -56,24 +70,10 @@
     "text": "Reproducing this\nEverything here is open. GB market data comes from the Elexon BMRS / Insights API (imbalance price and NIV; and, for full mode, demand outturn and generation-by-fuel including interconnectors), embedded solar from Sheffield Solar PV_Live, and weather from the Open-Meteo ERA5 archive — all free and keyless. The repository has the fetchers, the interpretable decomposition, a reproducible figure pipeline, and a small read-only results app.\nThis is Phase 1 — characterising the drivers. Feedback welcome."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Di Liu",
+    "objectID": "writing.html",
+    "href": "writing.html",
+    "title": "Writing",
     "section": "",
-    "text": "I’m a data scientist working on the GB electricity system — forecasting, balancing markets, and how a decarbonising grid copes with a changing climate. I like work that is reproducible and open: open data, open-source code, and analysis that explains why, not just what.\nGitHub · LinkedIn · Email"
-  },
-  {
-    "objectID": "index.html#selected-projects",
-    "href": "index.html#selected-projects",
-    "title": "Di Liu",
-    "section": "Selected projects",
-    "text": "Selected projects\n\n🌡️ Heatwave stress on the GB balancing system\nHow extreme heat reshapes the imbalance (cash-out) price and the ~18:00 evening spike — a climate-resilience analysis that ranks the physical drivers rather than just predicting price. Open data (Elexon BMRS, Sheffield PV_Live, Open-Meteo), an interpretable decomposition, and a live results app.\nRead the writeup · Code\n\n\n⚡ GB imbalance-price forecasting pipeline\nAn end-to-end pipeline for short-term GB system-price forecasting — data ingestion, feature engineering, model training, and monitoring in production, with a Streamlit dashboard.\nCode"
-  },
-  {
-    "objectID": "index.html#writing",
-    "href": "index.html#writing",
-    "title": "Di Liu",
-    "section": "Writing",
-    "text": "Writing\nOccasional notes on energy-systems data and modelling — see Writing."
+    "text": "When the grid gets hot: how heatwaves stress the GB balancing system\n\n\n\nenergy systems\n\nGB balancing\n\nclimate resilience\n\n\n\nA climate-resilience look at the evening imbalance-price spike — what drives it, and what it means for a decarbonising grid.\n\n\n\n\n\nJul 1, 2026\n\n\n\n\n\nNo matching items"
   }
 ]
