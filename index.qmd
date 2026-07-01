@@ -1,6 +1,6 @@
 ---
 title: "Di Liu"
-subtitle: "Data science for energy systems & decarbonisation"
+subtitle: "Quantitative scientist · machine learning, forecasting & risk modelling"
 toc: false
 ---
 
@@ -8,14 +8,20 @@ toc: false
 
 <!-- Add your photo as images/profile.jpg (or .png — update the extension above). -->
 
-I'm a data scientist working on the GB electricity system — forecasting, balancing
-markets, and how a decarbonising grid copes with a changing climate. I like work
-that is **reproducible and open**: open data, open-source code, and analysis that
-explains *why*, not just *what*.
+I'm a quantitative scientist and machine learning practitioner with a PhD in
+Physics from New York University. I build statistical models, forecasting systems,
+and large-scale simulations end-to-end — from data ingestion through model
+training and validation to a deployed, monitored product. My work centres on
+**uncertainty quantification, time-series and scenario modelling, and turning
+complex data into decisions** — in energy systems and, more broadly, in
+forecasting and risk. I value work that is reproducible and open, and I care about
+communicating technical results clearly to specialist and non-technical audiences
+alike.
 
-<!-- Edit these contact links to your real handles -->
+<!-- Edit the LinkedIn link to your real handle -->
 [GitHub](https://github.com/liudi23) ·
 [LinkedIn](https://www.linkedin.com/in/) ·
+[Google Scholar](https://scholar.google.com/citations?user=Y6LnZG8AAAAJ&hl=en) ·
 [Email](mailto:liudisy@gmail.com)
 
 ## Selected projects
@@ -39,4 +45,4 @@ dashboard.
 
 ## Writing
 
-Occasional notes on energy-systems data and modelling — see [Writing](writing.qmd).
+Occasional notes on quantitative modelling and data science — see [Writing](writing.qmd).
