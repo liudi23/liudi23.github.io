@@ -30,6 +30,7 @@ An end-to-end pipeline for short-term GB system-price forecasting — data inges
 feature engineering, model training, and monitoring in production, with a Streamlit
 dashboard.
 
+[Live app](https://uk-system-price-forecast.streamlit.app/) ·
 [Code](https://github.com/liudi23/uk-system-price-forecast)
 
 ## Writing
