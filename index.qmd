@@ -4,6 +4,10 @@ subtitle: "Data science for energy systems & decarbonisation"
 toc: false
 ---
 
+![](images/profile.jpg){.profile-pic width=170}
+
+<!-- Add your photo as images/profile.jpg (or .png — update the extension above). -->
+
 I'm a data scientist working on the GB electricity system — forecasting, balancing
 markets, and how a decarbonising grid copes with a changing climate. I like work
 that is **reproducible and open**: open data, open-source code, and analysis that
