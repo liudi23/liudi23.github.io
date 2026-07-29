@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bba5ebae505b5c03f3f0d8040a416a6b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6ac2aec46ad7f46b16024ee4409aa65c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -123,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Di Liu</h1>
-<p class="subtitle lead">Quantitative scientist · machine learning, forecasting &amp; risk modelling</p>
+<p class="subtitle lead">Data scientist · quantitative forecasting, AI agents &amp; applied machine learning</p>
 </div>
 
 
@@ -142,10 +145,15 @@ ul.task-list li input[type="checkbox"] {
 
 <p><img src="images/profile.jpg" class="profile-pic img-fluid" width="170"></p>
 <!-- Add your photo as images/profile.jpg (or .png — update the extension above). -->
-<p>I’m a quantitative scientist and machine learning practitioner with a PhD in Physics from New York University. I build statistical models, forecasting systems, and large-scale simulations end-to-end — from data ingestion through model training and validation to a deployed, monitored product. My work centres on <strong>uncertainty quantification, time-series and scenario modelling, and turning complex data into decisions</strong> — in energy systems and, more broadly, in forecasting and risk. I value work that is reproducible and open, and I care about communicating technical results clearly to specialist and non-technical audiences alike.</p>
+<p>I’m a data scientist with a PhD in Physics from New York University, working at the intersection of <strong>quantitative forecasting and AI agent systems</strong>. I build production-grade pipelines end-to-end — from data ingestion through modelling, validation, and deployment to monitoring — whether the model is a time-series forecaster for energy markets or a multi-stage LLM agent that verifies its own answers. My work centres on <strong>forecasting and uncertainty quantification, LLM-based agents with built-in verification, and turning complex data into decisions people can trust</strong>. I value reproducible, open work and clear communication of technical results to specialist and non-technical audiences alike.</p>
 <p><a href="https://github.com/liudi23">GitHub</a> · <a href="https://www.linkedin.com/in/di-liu-ph-d-0144aa43/">LinkedIn</a> · <a href="https://scholar.google.com/citations?user=Y6LnZG8AAAAJ&amp;hl=en">Google Scholar</a> · <a href="mailto:liudisy@gmail.com">Email</a></p>
 <section id="selected-projects" class="level2">
 <h2 class="anchored" data-anchor-id="selected-projects">Selected projects</h2>
+<section id="determine-a-scientific-claim-verification-agent" class="level3">
+<h3 class="anchored" data-anchor-id="determine-a-scientific-claim-verification-agent">🔍 Determine — a scientific claim-verification agent</h3>
+<p><em>“LLMs sound convincing even when they’re wrong. Determine finds out whether they’re right.”</em> An answer engine that is also its own fact-checker: it drafts literature-grounded, cited answers, decomposes them into typed atomic claims, then independently verifies every claim with a <strong>blind verifier from a different model family</strong> (fresh retrieval, independence asserted at startup) and re-computes the numbers with a sandboxed checker — reporting an auditable faithfulness score (SUPPORTED / REFUTED / NEI) with a clickable evidence trail. Built as a LangGraph-orchestrated pipeline (plan → retrieve → answer → decompose → verify ∥ compute), with hallucination-injection tests and fully persisted run states.</p>
+<p><a href="https://github.com/liudi23/determine/tree/mvp">Code</a></p>
+</section>
 <section id="heatwave-stress-on-the-gb-balancing-system" class="level3">
 <h3 class="anchored" data-anchor-id="heatwave-stress-on-the-gb-balancing-system">🌡️ Heatwave stress on the GB balancing system</h3>
 <p>How extreme heat reshapes the imbalance (cash-out) price and the ~18:00 evening spike — a climate-resilience analysis that ranks the physical drivers rather than just predicting price. Open data (Elexon BMRS, Sheffield PV_Live, Open-Meteo), an interpretable decomposition, and a live results app.</p>
