@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Di Liu"
-  description: "Quantitative scientist and ML practitioner — forecasting, risk, and uncertainty modelling in energy and finance."
+  description: "Data scientist — quantitative forecasting, AI agents, and uncertainty modelling in energy and beyond."
   site-url: "https://liudi23.github.io"
   navbar:
     right:

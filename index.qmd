@@ -1,6 +1,6 @@
 ---
 title: "Di Liu"
-subtitle: "Quantitative scientist · machine learning, forecasting & risk modelling"
+subtitle: "Data scientist · quantitative forecasting, AI agents & applied machine learning"
 toc: false
 ---
 
@@ -8,14 +8,15 @@ toc: false
 
 <!-- Add your photo as images/profile.jpg (or .png — update the extension above). -->
 
-I'm a quantitative scientist and machine learning practitioner with a PhD in
-Physics from New York University. I build statistical models, forecasting systems,
-and large-scale simulations end-to-end — from data ingestion through model
-training and validation to a deployed, monitored product. My work centres on
-**uncertainty quantification, time-series and scenario modelling, and turning
-complex data into decisions** — in energy systems and, more broadly, in
-forecasting and risk. I value work that is reproducible and open, and I care about
-communicating technical results clearly to specialist and non-technical audiences
+I'm a data scientist with a PhD in Physics from New York University, working at the
+intersection of **quantitative forecasting and AI agent systems**. I build
+production-grade pipelines end-to-end — from data ingestion through modelling,
+validation, and deployment to monitoring — whether the model is a time-series
+forecaster for energy markets or a multi-stage LLM agent that verifies its own
+answers. My work centres on **forecasting and uncertainty quantification,
+LLM-based agents with built-in verification, and turning complex data into
+decisions people can trust**. I value reproducible, open work and clear
+communication of technical results to specialist and non-technical audiences
 alike.
 
 [GitHub](https://github.com/liudi23) ·
@@ -24,6 +25,20 @@ alike.
 [Email](mailto:liudisy@gmail.com)
 
 ## Selected projects
+
+### 🔍 Determine — a scientific claim-verification agent
+*"LLMs sound convincing even when they're wrong. Determine finds out whether
+they're right."* An answer engine that is also its own fact-checker: it drafts
+literature-grounded, cited answers, decomposes them into typed atomic claims,
+then independently verifies every claim with a **blind verifier from a different
+model family** (fresh retrieval, independence asserted at startup) and re-computes
+the numbers with a sandboxed checker — reporting an auditable faithfulness score
+(SUPPORTED / REFUTED / NEI) with a clickable evidence trail. Built as a
+LangGraph-orchestrated pipeline (plan → retrieve → answer → decompose →
+verify ∥ compute), with hallucination-injection tests and fully persisted run
+states.
+
+[Code](https://github.com/liudi23/determine/tree/mvp)
 
 ### 🌡️ Heatwave stress on the GB balancing system
 How extreme heat reshapes the imbalance (cash-out) price and the ~18:00 evening
